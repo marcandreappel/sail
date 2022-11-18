@@ -10,14 +10,14 @@ plugins=(... sail)
 
 ## Commands
 
-| Alias      | Description      |
-|:----------:|:----------------:|
+| Alias      | Description     |
+|:----------:|:---------------:|
 | `artisan`  | `sail artisan`  |
 | `composer` | `sail composer` |
-| `drush`    | `sail drush`    |
-| `gulp`     | `sail gulp`     |
+| `node`     | `sail node`     |
 | `npm`      | `sail npm`      |
-| `wp`       | `sail wp`       |
+| `npx`      | `sail npx`      |
+| `php`      | `sail php`      |
 | `yarn`     | `sail yarn`     |
 
 ## How it works
