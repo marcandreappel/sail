@@ -1,8 +1,8 @@
-# Laravel Sail ZSH (sail-zsh)
+# Laravel Sail Oh-My-Zsh plugin (sail-zsh)
 
-This plugin adds aliases for using various languages and frameworks with [Laravel Sail](https://laravel.com/docs/9.x/sail) for Docker. It will only run within sail-driven project directories.
+This [OMZ plugin](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) adds aliases for typical commands with [Laravel Sail](https://laravel.com/docs/10.x/sail). It will only run within sail-driven project directories.
 
-To use it, add `sail` to the plugins array in your zshrc file:
+To use it, add `sail` to the oh-my-zsh plugins array in your `.zshrc` file:
 
 ```zsh
 plugins=(... sail)
@@ -31,8 +31,11 @@ The plugin will utilize the default values. Set the variable(s) below as needed 
 - `SAIL_ZSH_PROJECTS_DIRECTORY`: The plugin will stop searching through parents for `SAIL_ZSH_BIN_PATH` once it hits this directory. This should be the top level directory of all your projects.
 - `SAIL_ZSH_BIN_PATH`: The plugin will check to see if this provided path exists to check for presence of Laravel Sail. By default, the path is `vendor/bin/sail` but this can be changed if needed.
 
-## Author of the original Lando plugin:
+## Authors
 
-- Author: Joshua Bedford
+- Marc-André Appel
+- [https://github.com/marcandreappel/sail-zsh](https://github.com/marcandreappel/sail-zsh)
+
+- Joshua Bedford (Author of the original Lando plugin)
 - URL: [https://github.com/joshuabedford/lando-zsh](https://github.com/joshuabedford/lando-zsh)
 
