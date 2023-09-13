@@ -21,7 +21,7 @@ function artisan \
 # Check for the file in the current and parent directories.
 checkForSail() {
   # Check if ./vendor directory exists and if ./vendor/bin/sail file exists.
-  if [[ -d "./vendor" && -f $SAIL_ZSH_BIN_PATH ]]; then
+  if [ -f $SAIL_ZSH_BIN_PATH ]; then
     return 0
   else
     # Could not find $SAIL_ZSH_BIN_PATH in the current directory
