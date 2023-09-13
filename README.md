@@ -26,14 +26,13 @@ This plugin removes the requirement to type `sail` before a command. It utilizes
 
 ## Settings
 
-The plugin will utilize the default values. Set the variable(s) below as needed in your .zshrc file to change these default values to match your development environment: (eg.: Add LANDO_ZSH_SITES_DIRECTORY=~/Projects to .zshrc)
+The plugin will utilize the default values. Set the variable(s) below as needed in your .zshrc file to change these default values to match your development environment:
 
-- `SAIL_ZSH_PROJECTS_DIRECTORY`: The plugin will stop searching through parents for `SAIL_ZSH_BIN_PATH` once it hits this directory. This should be the top level directory of all your projects.
 - `SAIL_ZSH_BIN_PATH`: The plugin will check to see if this provided path exists to check for presence of Laravel Sail. By default, the path is `vendor/bin/sail` but this can be changed if needed.
 
 ## Authors
 
-- Marc-André Appel
+- [Marc-André Appel](https://maa.rocks)
 - [https://github.com/marcandreappel/sail-zsh](https://github.com/marcandreappel/sail-zsh)
 
 - Joshua Bedford (Author of the original Lando plugin)
